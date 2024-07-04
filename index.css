@@ -1,59 +1,61 @@
+/* Elements */
 body {
-    background-image: url("desk.jpg");
-    background-size: cover;
-    height: 100vh;
-    font-family: 'Nothing You Could Do', cursive;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+  background-image: url("images/desk.jpg");
+  background-size: cover;
+  height: 100vh;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+/* Typography */
 h1 {
-    font-size: 25px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 45px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
+#container {
+  opacity: 90%;
+  background: #000000;
+  border: 1px solid white;
+  max-width: 100%;
+  border-radius: 8px;
+  margin: auto;
+  padding: 25px;
+}
+
+/* Buttons */
 button {
-    font-family: 'Nothing You Could Do', cursive;
-    border: none;
-    padding: 10px 5px 10px 5px;
-    color: white;
-    font-weight: bold;
-    width: 120px;
-    display: block;
-    margin-bottom: 6px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 5px;
+  font-family: "Nothing You Could Do", cursive;
+  border: none;
+  padding: 10px 5px 10px 5px;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  display: block;
+  margin-bottom: 6px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
 }
 
 #increment-btn {
-    background: #EE901E;
+  background: #ee901e;
 }
 
 #save-btn {
-    background: #91A359;
-}
-
-#max-width {
-    opacity: 90%;
-    background: #000000;
-    border: 1px solid white;
-    max-width: 100%;
-    border-radius: 8px;
-    margin: auto;
-    padding: 25px;
+  background: #91a359;
 }
 
 
